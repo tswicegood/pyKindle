@@ -27,12 +27,12 @@ For example, here's the structure of the last clipping out of my Kindle::
 Handling Pragmatic Bookshelf books
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 There is one oddity here that I feel obliged to mention (seeing as how I write
-for them and you've all bought `<my book>http://pragprog.com/titles/tsgit`_ and
+for them and you've all bought `my book`_ and
 want to use pyKindle to parse your notes from it, right?): Pragmatic Bookshelf.
 
 Each of the digital version that Pragmatic Bookshelf creates is watermarked
 with the name of the original purchaser.  This is generally a good thing, but
-if you're syncing to a site such as `<Readernaut>http://readernaut.com`_, you
+if you're syncing to a site such as `Readernaut`_, you
 need to be able to search the original book name.
 
 You can provide filters (see the source code for examples) for all of the
@@ -45,3 +45,6 @@ adjusting the title field to account for the Pragmatic Bookshelf issue::
 
 Dig into the code.  It's not complicated.  You'll be able to see what all the filters
 are doing and how to make awesome filters for yourself. :-)
+
+.. _my book: http://pragprog.com/titles/tsgit
+.. _Readernaut: http://readernaut.com
